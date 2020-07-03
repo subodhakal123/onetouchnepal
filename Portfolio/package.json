@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Respnsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o disc/css/ --recursive"
+  },
+  "author": "Subodh Dhakal",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
