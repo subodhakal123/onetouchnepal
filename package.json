@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "onetouchnepal",
   "version": "1.0.0",
   "description": "Boostrap Project",
   "main": "index.js",
@@ -17,16 +17,23 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.1",
     "onchange": "^7.0.2",
     "parallelshell": "^3.0.2"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.12.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subodhakal123/onetouchnepal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/subodhakal123/onetouchnepal/issues"
   }
 }
