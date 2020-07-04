@@ -1,39 +1,23 @@
 {
   "name": "onetouchnepal",
   "version": "1.0.0",
-  "description": "Boostrap Project",
+  "description": "",
   "main": "index.js",
-  "homepage": "https://subodhakal123.github.io/onetouchnepal",
   "scripts": {
-    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server",
-    "scss": "node-sass -o css/ css/",
-    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "deploy": "gh-pages -d disc"
-  },
-  "author": "Subodh Dhakal",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.5.4",
-    "node-sass": "^4.14.1",
-    "onchange": "^7.0.2",
-    "parallelshell": "^3.0.2"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "gh-pages": "^3.1.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.12.9"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/subodhakal123/onetouchnepal.git"
   },
+  "author": "Subodh Dhakal",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/subodhakal123/onetouchnepal/issues"
+  },
+  "homepage": "https://subodhakal123.github.io/onetouchnepal",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
