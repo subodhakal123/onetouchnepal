@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Respnsive portfolio",
+  "main": "index.js",
+  "homepage": "https://subodhakal123.github.io/My_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o disc/css/ --recursive",
+    "deploy": "gh-pages -d disc"
+  },
+  "author": "Subodh Dhakal",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.14.0"
+  }
+}
